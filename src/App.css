@@ -1,0 +1,15 @@
+.app-loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--dark-gradient);
+    color: white;
+    gap: var(--spacing-md);
+}
+
+.app-loading p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+}

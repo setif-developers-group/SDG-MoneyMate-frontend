@@ -1,0 +1,101 @@
+.onboarding-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--secondary-gradient);
+    padding: var(--spacing-md);
+}
+
+.onboarding-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 600px;
+    animation: slideUp 0.4s ease-out;
+}
+
+.onboarding-header {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.onboarding-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: var(--secondary-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--spacing-xs);
+}
+
+.onboarding-header p {
+    font-size: 1.1rem;
+    color: #6b7280;
+}
+
+.onboarding-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.question-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.question-label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1f2937;
+    line-height: 1.5;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.radio-option,
+.checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-sm);
+    border: 2px solid #e5e7eb;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.radio-option:hover,
+.checkbox-option:hover {
+    border-color: #f5576c;
+    background: #fef2f2;
+}
+
+.radio-option input,
+.checkbox-option input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.radio-option span,
+.checkbox-option span {
+    font-size: 1rem;
+    color: #374151;
+    flex: 1;
+}
+
+.radio-option:has(input:checked),
+.checkbox-option:has(input:checked) {
+    border-color: #f5576c;
+    background: #fef2f2;
+}
