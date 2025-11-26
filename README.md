@@ -1,8 +1,6 @@
 # 💰 SDG MoneyMate
 
-> **A 100% AI-Coded Personal Finance Management Application**
-
-SDG MoneyMate is an intelligent financial assistant that helps you manage your budget, track expenses, and make smarter financial decisions. This project was **entirely coded by AI** with human guidance, showcasing the power of AI-assisted development.
+SDG MoneyMate is an intelligent financial assistant that helps you manage your budget, track expenses, and make smarter financial decisions.
 
 ![SDG MoneyMate](https://img.shields.io/badge/AI--Coded-100%25-00D9A3?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18.3-1E90FF?style=for-the-badge&logo=react)
@@ -219,20 +217,9 @@ The frontend communicates with these backend endpoints:
 - **CSS Variables** for consistent theming
 - **Modular Architecture** for maintainability
 
-## 🤝 Contributing
+## 🤝 About This Frontend
 
-This project was **100% coded by AI** (Google Gemini) with human guidance. The human developer provided:
-- Feature requirements and specifications
-- Design direction and brand guidelines
-- Testing feedback and bug reports
-- Strategic decisions and priorities
-
-The AI handled:
-- All code implementation
-- Component architecture
-- Styling and animations
-- API integration
-- Bug fixes and optimizations
+This **frontend application** was developed to work with the SDG MoneyMate backend API. The backend handles all AI processing, business logic, and data management using Django REST Framework and Google Gemini AI.
 
 ## 📝 License
 
@@ -240,14 +227,34 @@ This project is part of the SDG (Software Development Group) portfolio.
 
 ## 🙏 Acknowledgments
 
-- **AI Development**: Google Gemini (via Antigravity CLI)
-- **Human Guidance**: Project direction and requirements
 - **Backend**: Django REST Framework with Google Gemini AI integration
 - **Design Inspiration**: Modern fintech applications
+- **Brand Design**: SDG team color palette
 
 ## 📞 Support
 
 For issues or questions, please refer to the backend repository documentation or contact the development team.
+
+---
+
+## 🤖 Development Note
+
+**This frontend application was 100% coded by AI** (Google Gemini via Antigravity CLI) with human guidance.
+
+### Human's Role:
+- Provided feature requirements and specifications
+- Gave design direction and brand guidelines
+- Tested the application and reported bugs
+- Made strategic decisions and set priorities
+
+### AI's Role:
+- Implemented all code (React components, styling, API integration)
+- Designed component architecture and file structure
+- Created all CSS animations and responsive layouts
+- Fixed bugs and optimized performance
+- Wrote this documentation
+
+This demonstrates the power of AI-assisted development when combined with clear human direction and requirements.
 
 ---
 
