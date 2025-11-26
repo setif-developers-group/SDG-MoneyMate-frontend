@@ -52,7 +52,7 @@
 
 .expense-textarea:focus {
     outline: none;
-    border-color: #f093fb;
+    border-color: var(--accent-green);
 }
 
 .file-input {
@@ -72,7 +72,7 @@
 
 .file-custom:hover {
     background: rgba(255, 255, 255, 0.15);
-    border-color: #f093fb;
+    border-color: var(--accent-green);
 }
 
 .submit-btn {

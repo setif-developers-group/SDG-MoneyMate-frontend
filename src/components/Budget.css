@@ -200,7 +200,7 @@
 .markdown-content h1,
 .markdown-content h2,
 .markdown-content h3 {
-    color: #f093fb;
+    color: var(--accent-green);
     margin-top: var(--spacing-lg);
     margin-bottom: var(--spacing-sm);
     font-weight: 600;
@@ -257,7 +257,7 @@
     padding: var(--spacing-md);
     text-align: left;
     font-weight: 600;
-    color: #f093fb;
+    color: var(--accent-green);
     border-bottom: 2px solid rgba(240, 147, 251, 0.3);
 }
 

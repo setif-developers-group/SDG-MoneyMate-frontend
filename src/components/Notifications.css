@@ -64,7 +64,7 @@
 .mark-read-btn {
     background: none;
     border: none;
-    color: #f093fb;
+    color: var(--accent-green);
     font-size: 0.8rem;
     cursor: pointer;
     padding: 0;
@@ -124,7 +124,7 @@
 .unread-dot {
     width: 8px;
     height: 8px;
-    background: #f093fb;
+    background: var(--accent-green);
     border-radius: 50%;
     position: absolute;
     top: var(--spacing-md);

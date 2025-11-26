@@ -54,7 +54,7 @@ const LoginSignup = ({ onSuccess }) => {
         <div className="auth-container">
             <div className="auth-card">
                 <div className="auth-header">
-                    <h1>AI-On</h1>
+                    <h1>SDG MoneyMate</h1>
                     <p>{isLogin ? 'Welcome Back' : 'Create Your Account'}</p>
                 </div>
 

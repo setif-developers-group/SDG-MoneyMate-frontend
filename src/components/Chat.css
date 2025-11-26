@@ -117,7 +117,7 @@
 }
 
 .chat-input:focus {
-    border-color: #667eea;
+    border-color: var(--primary-blue);
     background: rgba(255, 255, 255, 0.1);
 }
 

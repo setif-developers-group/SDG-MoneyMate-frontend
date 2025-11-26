@@ -2,12 +2,18 @@
 
 :root {
     /* Colors */
-    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    --dark-gradient: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    --success-color: #10b981;
-    --error-color: #ef4444;
-    --warning-color: #f59e0b;
+    /* Brand Colors */
+    --primary-blue: #1E90FF;
+    --primary-blue-dark: #0D7FE8;
+    --accent-green: #00D9A3;
+    --dark-navy: #0A1929;
+    --dark-bg: #0F1419;
+    --white: #FFFFFF;
+
+    /* Gradients */
+    --primary-gradient: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
+    --accent-gradient: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-green) 100%);
+    --dark-gradient: linear-gradient(135deg, var(--dark-navy) 0%, var(--dark-bg) 100%);
 
     /* Typography */
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
@@ -15,11 +21,11 @@
     font-weight: 400;
 
     /* Spacing */
-    --spacing-xs: 0.5rem;
-    --spacing-sm: 1rem;
-    --spacing-md: 1.5rem;
-    --spacing-lg: 2rem;
-    --spacing-xl: 3rem;
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
 
     /* Border Radius */
     --radius-sm: 8px;

@@ -81,7 +81,7 @@ const Chat = () => {
                 {messages.length === 0 && (
                     <div className="empty-state">
                         <div className="empty-icon">👋</div>
-                        <h3>Hello! I'm AI-On</h3>
+                        <h3>Hello! I'm SDG MoneyMate</h3>
                         <p>I can help you manage your budget, track expenses, and give financial advice.</p>
                     </div>
                 )}

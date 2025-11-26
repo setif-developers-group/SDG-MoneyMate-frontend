@@ -41,7 +41,7 @@ function App() {
         return (
             <div className="app-loading">
                 <div className="loading-spinner"></div>
-                <p>Loading AI-On...</p>
+                <p>Loading SDG MoneyMate...</p>
             </div>
         );
     }

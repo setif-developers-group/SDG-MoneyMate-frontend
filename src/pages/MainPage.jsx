@@ -46,7 +46,7 @@ const MainPage = () => {
       case 'dashboard':
         return (
           <div className="hero-section">
-            <h1 className="hero-title">Welcome to AI-On</h1>
+            <h1 className="hero-title">Welcome to SDG MoneyMate</h1>
             <p className="hero-subtitle">
               Your AI-powered financial assistant is ready to help you manage your finances smarter.
             </p>
@@ -150,7 +150,7 @@ const MainPage = () => {
     <div className="main-container">
       <nav className="navbar">
         <div className="nav-content">
-          <h1 className="logo" onClick={() => setActiveTab('dashboard')} style={{ cursor: 'pointer' }}>AI-On</h1>
+          <h1 className="logo" onClick={() => setActiveTab('dashboard')} style={{ cursor: 'pointer' }}>SDG MoneyMate</h1>
           <div className="nav-links">
             <button
               onClick={() => setActiveTab('dashboard')}

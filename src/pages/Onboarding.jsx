@@ -94,7 +94,7 @@ const Onboarding = ({ onComplete }) => {
         <div className="onboarding-container">
             <div className="onboarding-card">
                 <div className="onboarding-header">
-                    <h1>Welcome to AI-On</h1>
+                    <h1>Welcome to SDG MoneyMate</h1>
                     <p>Let's set up your financial profile</p>
                 </div>
 

@@ -58,7 +58,7 @@
 }
 
 .nav-btn.active {
-    color: #f093fb;
+    color: var(--accent-green);
     position: relative;
 }
 
@@ -69,7 +69,7 @@
     left: 0;
     width: 100%;
     height: 2px;
-    background: #f093fb;
+    background: var(--accent-green);
     border-radius: 2px;
 }
 
@@ -138,7 +138,7 @@
 .hero-title {
     font-size: 3.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-green) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -282,7 +282,7 @@
 .markdown-content h1,
 .markdown-content h2,
 .markdown-content h3 {
-    color: #f093fb;
+    color: var(--accent-green);
     margin-top: var(--spacing-lg);
     margin-bottom: var(--spacing-sm);
 }
@@ -337,15 +337,15 @@
 }
 
 .markdown-content thead {
-    background: rgba(240, 147, 251, 0.2);
+    background: rgba(0, 217, 163, 0.2);
 }
 
 .markdown-content th {
     padding: var(--spacing-md);
     text-align: left;
     font-weight: 600;
-    color: #f093fb;
-    border-bottom: 2px solid rgba(240, 147, 251, 0.3);
+    color: var(--accent-green);
+    border-bottom: 2px solid rgba(0, 217, 163, 0.3);
 }
 
 .markdown-content td {
